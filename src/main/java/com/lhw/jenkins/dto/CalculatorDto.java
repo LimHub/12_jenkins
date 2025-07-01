@@ -13,7 +13,6 @@ public class CalculatorDto {
     private final Integer num2;
     private Integer sum;
 
-
     public CalculatorDto(Integer num1, Integer num2) {
         this.num1 = num1;
         this.num2 = num2;
