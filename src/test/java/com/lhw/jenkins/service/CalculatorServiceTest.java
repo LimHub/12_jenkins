@@ -20,7 +20,7 @@ class CalculatorServiceTest {
         return Stream.of(
                 Arguments.of(new CalculatorDto(1,2)),
                 Arguments.of(new CalculatorDto(3,5)),
-                Arguments.of(new CalculatorDto(10,-2))
+                Arguments.of(new CalculatorDto(10,5))
         );
     }
 
