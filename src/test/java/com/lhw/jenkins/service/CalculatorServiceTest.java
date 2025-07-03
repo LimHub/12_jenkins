@@ -23,7 +23,6 @@ class CalculatorServiceTest {
                 Arguments.of(new CalculatorDto(10,5))
         );
     }
-
     @DisplayName("두 수의 합 구하기 테스트")
     @ParameterizedTest
     @MethodSource("provideDtoSource")
